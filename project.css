@@ -1,0 +1,105 @@
+body,html{
+  height: 100%;
+  margin: 0;
+    
+}
+
+.bodyPic { 
+  background-image: url("https://bmisrael.co.il/wp-content/uploads/2015/12/B1030-B10431.png");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.header{
+  text-align: center;
+  padding-top: 30px;
+  font-family: cursive
+}
+
+.bi {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.card {
+  width: 20%;
+  height: 200px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  font-family: cursive;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAM8AAAD0CAMAAAAL4oIDAAAAwFBMVEXn16To2KXt3KjWyJft3Knn1qXm1aKDe1+Rh2XbzJyOhGR+dViGfWCGfF3f0aDUxZeakGt6cVf////p3K759u0AAAAcFxsAAAru4LHazqPm1Z4oIyPNv5IAAA+hnHvo2quPiXGalHWGgmrk4+Sfnp9dWFwiHSE9OT12dne8tqz9+vErIhhJQzlUTkGvo4AUDhltZFDBsogxLSZeWEp7cFs6NjFEPjdaVUNaVT5uZ0/25a/Dt5ArJiMVEBesnX63q4K1IgRIAAAEXklEQVR4nO2dW3PbNhBGAZhKJaUWwzAgpUi0Lk3cNpF18bWxI+v//6tA7UzrkuiMH3bJrzt7njx8IHBmhcUuYUrmPT2/fPp8+esnhhu/AvOBmC8ffvMnfv9CfedXYexHWs6++nK93I8c8X1fhzW5ocS6q6rYOGct6W1fTU7s445+O3MdyRgGn53vu/rFFoNF7jMtR/XZ28G+NSFyn2rdmLsbThsh44LaJ9neND9uA39sS4g8PtdNH+Nu1wnpKP8NfT64a64Vm/qnllYQuc/Sv2lO3e0iUWOB2ieE4hgJ0Myn7QSI2sfY+9tIKNxD1k6AyH3cu20vEqB9c1tigT4+A/8cC9D9sJUAkfuEtb+O1Dduc4iEjR56n7D2I+WNtdexsJFD72Pc1UNk93QXrRQ9HD6bWHK2vWLTQpHA4GPtNJac3WLdQoAYfIzrV4NYyo6tK2o4fOzIR5KzNf6KP0AcPsZlZRJJ2d/9E7sQi08o4iLJ2e2qddKjH+1f5Gbs6Hl8uI9cHFbl8yPDaC9IxmaVvaXnm/+jeXG3LapvDIO9IFuxxMc93q0fk/rFtCwON83LlIT4MKyfP/fURkdqB9OiKGPdBCEs+eBUDXxvdqTJ+lAUfskqxORjkr6f1QPkdsGn8BtOIS6fsHvu6vN2y/Lkw1pnc/mY5K2vFz32GHyqG9aqlM3HpmW9Kg2ta3G45O272XxOq6UeIFcV5f5/md8CbuZXtbm7e79gruD4fEKfWntkEDYl9haI0cc++eHLte9COoj0RbQw+hi7vjR/z9+6Y+WP7B03p0/4fGWDxNlA4ga3vmTdSf+CNT7uujzsNrPBKD1ml75q4xCI08ckm0NZldWh2HpfXqXtPK8aJ3y43vNuWm231V22ZxzmxYBjsxwy0u/3h9nDLgt/cA7zz3hLMzmTxMTkVhKs+aAD1Acb9cFGfbBRH2zUBxv1wUagT9clPim5maRd92CEpBNz8U4SFzznp53BdH7aGQLzW9dTIEV9sFEfbNQHG/XBRn2wkecz70kiN4ufBHG+MPM3kpiLWz/qg4z6YKM+2KgPNuqDjfpgoz7Y5OL6n8V5100lIaE/1fNGZOTlA/VBRn2wUR9s1Acb9cFGfbDh+f6dzkjGZtmXhLD3NVN9XxMb9cFGfbBRH2zUBxv1wUZ9sBHo03WJT0puJgNJjEK/3co3F7VD6LdFPQ/R81Nw1Acb9cFGfbBRH2zUBxv1wUbe+emK9xdFWmYl7P+VT+un62cYhAjMB+qDjPpgoz7YqA826oONQJ+ua0hScjPq+kiNlIlZ/CwIfb8RHIH5respkKI+2KgPNuqDjfpgoz7YyPOR1i8sziWxMPORJOaynocIzAfqg4z6YKM+2KgPNuqDjfpgI9Cn6xqflNxMzlJBSPw9ykQOen4Kjvpgoz7YqA826oON+mCjPtjksvqF0/uNmSRW4j5v6oOM+mCjPtioDzbqg436YKM+2KgPNuqDjfpgoz7Y5D8AZMJLQJ4S9kQAAAAASUVORK5CYII=");
+}
+
+.card-time-date{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+
+.inputs{
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 5px;
+  font-family: cursive
+}
+
+.myTasks{
+  display: flex;
+  padding: 10px;
+}
+
+.fade-in{
+  animation: fadeIn 1sec;
+  -webkit-animation: fadeIn 1s;
+  -moz-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+}
+
+@keyframes fadeIn{
+  0% {opacity:0;}
+  25% {opacity: 0.25;}
+  50% {opacity: 0.5;}
+  75% {opacity: 0.75;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  25% {opacity: 0.25;}
+  50% {opacity: 0.5;}
+  75% {opacity: 0.75;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  25% {opacity: 0.25;}
+  50% {opacity: 0.5;}
+  75% {opacity: 0.75;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  25% {opacity: 0.25;}
+  50% {opacity: 0.5;}
+  75% {opacity: 0.75;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  25% {opacity: 0.25;}
+  50% {opacity: 0.5;}
+  75% {opacity: 0.75;}
+  100% {opacity:1;}
+}
